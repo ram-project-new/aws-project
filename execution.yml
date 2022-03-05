@@ -1,0 +1,19 @@
+---
+execution:
+- concurency: 50
+  hold-for: 3m
+  ramp-up: 2m
+  
+  sceneraio: Choose Flight
+Scenarios:
+  Choose Flight:
+    requests:
+    - label: blazedemo
+      method: GET
+      url: http://blazeedemo.com/
+    - label: reserve
+      method: post
+      url: http://blazeedemo.com/reserve.php
+      body:
+        fromPort: Paris
+        toPort: Chennai		
