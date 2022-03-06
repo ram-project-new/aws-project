@@ -2,7 +2,7 @@
 uptime;
 hostname;
 echo "Testing the hostname from Ramkumar"
-echo "Testing the hostname from PRaveen"
+echo "Testing the hostname from PRavee"
 uname -mnr;
 echo "testing superb"
 echo "test second time"
