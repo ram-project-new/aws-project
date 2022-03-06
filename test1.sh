@@ -1,6 +1,7 @@
 #!/us/bin/bash
 uptime;
 hostname;
+echo "Testing the hostname from Ramkumar"
 echo "Testing the hostname from PRaveen"
 uname -mnr;
 echo "testing superb"
