@@ -1,4 +1,4 @@
 #!/us/bin/bash
-yum install httpd -y;
-systemctl enable httpd.service;
-echo "This is my new Website in REDHAT AMI" >>/var/www/html/index.html
+uptime;
+uname -mnr;
+Echo "well done you project is successful"
